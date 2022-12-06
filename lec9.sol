@@ -21,7 +21,7 @@ contract B {
 
     A instance = new A("Alice", 52);
     function change(string memory _name, uint _age) public {
-        instance.change(_name, _age)''
+        instance.change(_name, _age);
     }
 
     function get() public view returns(string memory, uint) {
