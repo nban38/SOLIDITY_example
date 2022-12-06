@@ -35,6 +35,24 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -76,11 +94,11 @@
 	},
 	"sources": {
 		"lec9.sol": {
-			"keccak256": "0x15e16ce4e0d3623ccfe3c4195154873cf162634876a0aee8d7ce32b4ac268cbf",
+			"keccak256": "0x6e2aca56588e219965701e8901c24262dfdb1185a2e750f227cfc9cb38f9d2e5",
 			"license": "GPL-30",
 			"urls": [
-				"bzz-raw://5f26a6f0520a2d470be492b32064eeea953d35451d7579f1c5f0644260619e7a",
-				"dweb:/ipfs/QmScHgwLLdkDewcsG48qG9sbU7QUk7K4dr1kGVG9EQS7sk"
+				"bzz-raw://ca544d98ad613ffd9a33aaff86dd00018f4513df7169336c427ac5c47019ad04",
+				"dweb:/ipfs/Qmd6H4TY6YbtDD7gL6AbziHGs7HSnpxMyqStMhs2Ucws91"
 			]
 		}
 	},
